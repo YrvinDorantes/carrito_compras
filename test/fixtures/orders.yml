@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 
+  total: 
+  state: 
+  email: 
+  completed_at: 2015-07-19 14:58:11
+
+two:
+  number: 
+  total: 
+  state: 
+  email: 
+  completed_at: 2015-07-19 14:58:11

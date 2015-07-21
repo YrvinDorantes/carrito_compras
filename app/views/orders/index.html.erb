@@ -1,0 +1,16 @@
+<table>
+<tr>
+  <td>email</td>
+  <td>total</td>
+  <td>state</td>
+  <td>show</td>
+</tr>
+<% @orders.each do |o| %>
+<tr>
+  <td><%= o.email  %></td>
+  <td><%= number_to_currency(o.total) %></td>
+  <td><%= o.state %></td>
+  <td><%= link_to "show", process_payment_path(o.number) %></td>
+</tr>
+<% end %>
+</table>
